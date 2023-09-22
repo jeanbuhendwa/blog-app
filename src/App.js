@@ -1,10 +1,11 @@
 import "./App.css";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
-    <>
-      <h1>Hello Blog</h1>
-    </>
+    <main className="main__container">
+      <Header />
+    </main>
   );
 }
 
