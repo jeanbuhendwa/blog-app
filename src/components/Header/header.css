@@ -1,0 +1,33 @@
+.header__nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .8rem 150px;
+  background-color: #fff;
+}
+
+.logo {
+  font-size: 1.5rem;
+  background-color: var(--btn-color);
+  color: var(--color-primary);
+  font-weight: 600;
+  padding: 6px 10px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  color: var(--btn-color);
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: all .3s ease-in-out;
+}
+
+.nav a:hover {
+  color: var(--btn-color-hover);
+}

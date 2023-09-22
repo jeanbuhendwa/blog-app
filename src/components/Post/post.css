@@ -1,0 +1,40 @@
+.post__container {
+  padding-top: 80px;
+}
+
+.post {
+  display: grid;
+  grid-template-columns: 35% 63%;
+  align-items: center;
+  gap: 2%;
+  margin-top: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.post__image img {
+  border-radius: 5px;
+}
+.post__content h2 {
+  font-size: 1.4rem;
+  color: var(--title-color);
+  font-weight: 700;
+}
+
+.post__date {
+  display: flex;
+  gap: 10px;
+  margin: 6px 0;
+  color: var(--title-color-dark);
+}
+
+.post__date .author {
+  font-weight: 550;
+}
+
+.post__content p {
+  font-size: 0.9rem;
+  color: var(--text-color);
+}
