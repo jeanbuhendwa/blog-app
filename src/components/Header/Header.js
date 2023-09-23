@@ -3,7 +3,7 @@ const Header = () => {
   return (
     <header className="header__nav section">
       <a href="#" className="logo">
-        MyBlog
+        BlogApp
       </a>
       <nav className="nav">
         <a href="#">Login</a>
