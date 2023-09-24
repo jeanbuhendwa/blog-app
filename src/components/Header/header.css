@@ -22,13 +22,13 @@
   gap: 20px;
 }
 
-.nav a {
+.nav .nav__link{
   color: var(--btn-color);
   font-weight: 500;
   font-size: 1.1rem;
   transition: all .3s ease-in-out;
 }
 
-.nav a:hover {
+.nav .nav__link :hover {
   color: var(--btn-color-hover);
 }
