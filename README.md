@@ -38,6 +38,7 @@ To get started with BlogApp, follow these steps:
 ```
 
 - Access the Application: Open your web browser and visit http://localhost:3000 to access BlogApp.
+- Access the API: [Checkout This repository](https://github.com/jeanbuhendwa/blog-api)
 
 ## 👥 Author
 
