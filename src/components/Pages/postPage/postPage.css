@@ -56,3 +56,23 @@
   font-size: 1rem;
   font-weight: 550;
 }
+
+.post__edit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+  margin: 20px 0 6px;
+  color: var(--color-primary);
+  background: var(--btn-color);
+  padding: 8px 15px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.post__edit:hover {
+  background: var(--btn-color-hover);
+}
