@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import "./header.css";
-import { useContext, useEffect, useState } from "react";
+import { useContext, useEffect } from "react";
 import { userContext } from "../UserContext";
 const Header = () => {
   const { setUserInfo, userInfo } = useContext(userContext);
