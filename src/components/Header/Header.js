@@ -13,7 +13,7 @@ const Header = () => {
         setUserInfo(userInfo);
       });
     });
-  }, []);
+  });
 
   function logout() {
     fetch("http://localhost:5000/logout", {

@@ -14,7 +14,7 @@ const Post = ({ _id, title, summary, content, cover, createdAt, author }) => {
           <h2>{title}</h2>
         </NavLink>
         <p className="post__date">
-          <a className="author">{author.username}</a>
+          <span className="author">{author.username}</span>
           <time>{format(new Date(createdAt), "MMMM dd, yyyy h:mm a")}</time>
         </p>
         <p>{summary}</p>
