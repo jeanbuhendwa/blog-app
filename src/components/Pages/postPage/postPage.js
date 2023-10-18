@@ -14,7 +14,7 @@ const PostPage = () => {
         setPostInfo(postInfo);
       });
     });
-  }, []);
+  });
 
   if (!postInfo) return "";
   return (

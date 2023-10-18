@@ -19,7 +19,7 @@ const EditPost = () => {
         setFiles(postInfo.file);
       });
     });
-  }, []);
+  });
   const updatePost = async (ev) => {
     ev.preventDefault();
     const data = new FormData();
